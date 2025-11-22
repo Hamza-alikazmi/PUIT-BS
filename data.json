@@ -1,0 +1,18 @@
+{
+"Semester 1": {
+"English": [
+{ "name": "Lecture 1 - Basics", "url": "https://github.com/USERNAME/REPO/releases/download/v1/English-Lecture1.pdf" },
+{ "name": "Lecture 2 - Grammar", "url": "https://github.com/USERNAME/REPO/releases/download/v1/English-Lecture2.pdf" }
+],
+"Programming": [
+{ "name": "Intro to Programming - Notes", "url": "https://github.com/USERNAME/REPO/releases/download/v1/Prog-Notes.pdf" },
+{ "name": "Assignment 1", "url": "https://github.com/USERNAME/REPO/releases/download/v1/Prog-Assignment1.zip" }
+]
+},
+"Semester 2": {
+"Database": [
+{ "name": "ER Models.pdf", "url": "https://github.com/USERNAME/REPO/releases/download/v2/ER-Models.pdf" },
+{ "name": "SQL Cheatsheet.pdf", "url": "https://github.com/USERNAME/REPO/releases/download/v2/SQL-Cheatsheet.pdf" }
+]
+}
+}

@@ -1,0 +1,12 @@
+:root{--container:1000px}
+body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;color:#111}
+.container{max-width:var(--container);margin:0 auto;padding:1rem}
+.site-header{background:#0f172a;color:#fff;padding:.75rem 0}
+.site-header h1{margin:0;display:inline-block}
+.site-header input{float:right;padding:.5rem;border-radius:6px;border:1px solid #ccc}
+.grid{display:grid;gap:1rem;padding:1rem}
+.semester{background:#fff;border-radius:8px;padding:1rem;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.subject h3{margin:.5rem 0}
+.file-item{margin:.25rem 0}
+.file-item a{text-decoration:none;color:#0b5fff}
+.site-footer{background:#f8fafc;padding:1rem;margin-top:1rem;text-align:center;color:#334155}

@@ -1,0 +1,26 @@
+<%- include('partials/header') %>
+
+
+<div class="grid">
+<% for (let sem of Object.keys(data)) { %>
+<section class="semester">
+<h2><%= sem %></h2>
+<% const subjects = data[sem]; %>
+<% for (let subject of Object.keys(subjects)) { %>
+<div class="subject">
+<h3><%= subject %></h3>
+<ul>
+<% subjects[subject].forEach(file => { %>
+<li class="file-item" data-search="<%= (sem + ' ' + subject + ' ' + file.name).toLowerCase() %>">
+<a href="<%= file.url %>" target="_blank" rel="noopener noreferrer"><%= file.name %></a>
+</li>
+<% }) %>
+</ul>
+</div>
+<% } %>
+</section>
+<% } %>
+</div>
+
+
+<%- include('partials/footer') %>

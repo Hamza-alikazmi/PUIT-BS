@@ -1,0 +1,19 @@
+</main>
+<footer class="site-footer">
+<div class="container">Made with ❤️ — Keep backups of originals on your Drive</div>
+</footer>
+<script>
+// Client-side search/filter
+const searchInput = document.getElementById('search');
+if (searchInput) {
+searchInput.addEventListener('input', function (e) {
+const q = e.target.value.toLowerCase();
+document.querySelectorAll('.file-item').forEach(item => {
+const text = item.dataset.search;
+item.style.display = text.includes(q) ? '' : 'none';
+});
+});
+}
+</script>
+</body>
+</html>
